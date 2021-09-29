@@ -7,22 +7,21 @@ console.log(actual)
 let percentage = (actual / max)
 console.log(percentage)
 
+let name = 'John'
 
-	const a = 1;
-	const b = 1;
+let admin = (name);
+console.log(admin)
 
-	let result = (a + b);
+let home = 'earth';
+let currentVisitor = 'name';
 
-	
-	console.log(result)
+let myInt = 5;
+let myFloat = 6.667;
 
-	number = Number(prompt("enter a number"));
+console.log(myInt);
+typeof myInt;
 
-	function numberChecker() {
-		if(number >= 10) {
-			return true;
-		} else {
-			return false;
-		}
-	}
-	
+let age = 15
+if (age >= 14 && age <= 90) {
+	console.log("hooray")
+}
